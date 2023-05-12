@@ -1,0 +1,27 @@
+#navbar{
+    background: linear-gradient(90deg, #FC466B 0%, #3F5EFB 100%);
+}
+
+
+nav span #leopard-brand{
+    width: 50px;
+    margin-left: 1em;
+}
+
+nav .navbar-links ul{
+    list-style-type: none;
+}
+
+nav .navbar-links ul li{
+    display: inline-block;
+}
+
+nav .navbar-links ul li a{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+nav .navbar-links ul li a:hover{
+    color: #F2A30F
+}
