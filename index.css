@@ -1,10 +1,25 @@
-#navbar{
-    background: linear-gradient(90deg, #FC466B 0%, #3F5EFB 100%);
+body{
+    margin: 0;
+    padding: 0;
+}
+
+nav{
+    transition: background-color 0.4s ease-in-out;
 }
 
 
+.nav-scrolled{
+    background-color: #FC466B;
+    transition: background-color 0.4s ease-in-out;
+}
+.gradient-color{
+    display: block;
+    background: linear-gradient(90deg, #FC466B 0%, #3F5EFB 100%);
+    height: 100vh;
+}
+
 nav span #leopard-brand{
-    width: 50px;
+    width: 10vh;
     margin-left: 1em;
 }
 
@@ -22,6 +37,64 @@ nav .navbar-links ul li a{
     font-weight: bold;
 }
 
+@media screen and (max-width: 600px) {
+    nav{
+        background-color: #FC466B;
+    }
+
+    nav .navbar-links ul li a{
+        font-size: xx-small;
+    }
+
+    nav span #leopard-brand{
+        width: 10%;
+        margin-left: 1em;
+    }
+    
+    
+}
+
 nav .navbar-links ul li a:hover{
-    color: #F2A30F
+    color: #ffed62
+}
+
+.intro{
+    margin-top: 10%;
+}
+
+
+.main-title{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main-title h1{
+    color: aliceblue;
+    font-size: 15vmin;
+}
+
+.main-title p{
+    color: rgb(253, 253, 253);
+    font-size: 10vmin;
+    font-weight: lighter;
+}
+
+.main-title h1:hover{
+    color: rgb(243, 211, 245);
+}
+
+.main-title i{
+    font-size: 10vh;
+    color: white;
+    animation-name: down-arrow;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    bottom: 0;
+    position: absolute;
+}
+
+@keyframes down-arrow {
+    0%{color: white;  bottom: 0;}
+    100% {color: #f9ef9c; bottom: 1vmin;}
 }
