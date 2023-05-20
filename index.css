@@ -12,7 +12,7 @@ header{
 }
 
 .nav-scrolled{
-    background: #FC466B;
+    background: #9055a8;
     transition: background-color 0.8s ease-in-out;
 }
 
@@ -38,7 +38,7 @@ nav .navbar-links ul li a{
 
 @media screen and (max-width: 600px) {
     nav{
-        background-color: #FC466B;
+        background-color: #9055a8;
     }
 
     nav .navbar-links ul li a{
@@ -54,7 +54,7 @@ nav .navbar-links ul li a{
 }
 
 nav .navbar-links ul li a:hover{
-    color: #ffed62
+    text-decoration: underline;
 }
 
 .intro{
@@ -81,10 +81,6 @@ nav .navbar-links ul li a:hover{
     font-weight: lighter;
 }
 
-.main-title h1:hover{
-    color: rgb(243, 211, 245);
-}
-
 .main-title i{
     font-size: 10vh;
     color: white;
@@ -102,18 +98,60 @@ nav .navbar-links ul li a:hover{
 
 #about-section .subtitle{
     font-size: 8vmin;
-    color: white;
+    color: black;
+    font-weight: 350;
 }
 
-#about-section{
+.sections{
     margin:0%;
     padding: 5%;
-    background-color:#be82d6;
+    background-color:white
 }
 
 #about-section #introducing-text{
-    border: 2px solid rgb(228, 207, 228);
+    border: 2px solid #be82d6;
     padding: 3%;
     font-weight: 420;
     text-justify: inter-word;
+    border-radius: 3px;
+}
+
+#resume-title{
+    background-color: #bc7fd4;
+    padding: 2vmin;
+}
+
+#resume-title h2{
+    font-size: 8vmin;
+    color: white;
+    font-weight: 350;
+    text-align: center;
+}
+
+#resume-section .logos{
+    width: 12vmax;
+}
+
+#resume-section .jobs{
+    border: #A095F5 2px solid;
+    padding: 5vmin;
+    border-radius: 5px;
+    border-left: thick double #8232cd;
+    display: flex;
+    align-items: center;
+}
+
+#resume-section .jobs .job-title{
+    font-weight: 400;
+    text-decoration: underline 1px;
+}
+
+#resume-section .jobs .company{
+    font-weight: 500;
+}
+
+#resume-section .jobs .time-worked{
+    font-weight: 400;
+    font-size: 14px;
+    color: #3a356b;
 }
