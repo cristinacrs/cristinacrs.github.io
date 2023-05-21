@@ -98,8 +98,27 @@ nav .navbar-links ul li a:hover{
 
 #about-section .subtitle{
     font-size: 8vmin;
-    color: black;
-    font-weight: 350;
+    color: #451A6E;
+    font-weight: bold;
+    text-align: center;
+}
+
+#about-section #skills{
+    font-weight: 500;
+    color: #451A6E;
+    font-size: 3vmax;
+    text-align: center;
+}
+
+.skill-container{
+    border: 2px #be82d6 solid;
+    border-radius: 4px;
+    margin-left: 2vmax;
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+}
+
+.skill-container ul li{
+    list-style: circle;
 }
 
 .sections{
@@ -113,7 +132,8 @@ nav .navbar-links ul li a:hover{
     padding: 3%;
     font-weight: 420;
     text-justify: inter-word;
-    border-radius: 3px;
+    border-radius: 4px;
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
 }
 
 #resume-title{
@@ -124,7 +144,7 @@ nav .navbar-links ul li a:hover{
 #resume-title h2{
     font-size: 8vmin;
     color: white;
-    font-weight: 350;
+    font-weight: bold;
     text-align: center;
 }
 
@@ -139,6 +159,7 @@ nav .navbar-links ul li a:hover{
     border-left: thick double #8232cd;
     display: flex;
     align-items: center;
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
 }
 
 #resume-section .jobs .job-title{
@@ -154,4 +175,9 @@ nav .navbar-links ul li a:hover{
     font-weight: 400;
     font-size: 14px;
     color: #3a356b;
+}
+
+#resume-section h2{
+    font-weight: bold;
+    color: #451A6E;
 }
