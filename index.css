@@ -181,3 +181,35 @@ nav .navbar-links ul li a:hover{
     font-weight: bold;
     color: #451A6E;
 }
+
+#projects-title{
+    background: #A095F5;
+    padding: 2vmin;
+    margin-bottom: 8vmin;
+}
+
+#projects-title h2{
+    font-size: 8vmin;
+    color: white;
+    font-weight: bold;
+    text-align: center;
+}
+
+#projects .project-box{
+    border: #bc7fd4 2px solid;
+    border-radius: 5px;
+    margin: 2vmin 2vmin 2vmin 2vmin;
+    padding: 1em;
+}
+
+#projects .project-box:hover{
+    border: #8232cd 2px solid;
+    box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.2);
+}
+
+#projects .project-box img{
+    width: 35vmax;
+    height: 16vmax;
+    border-radius: 6px;
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+}
