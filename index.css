@@ -213,3 +213,10 @@ nav .navbar-links ul li a:hover{
     border-radius: 6px;
     box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
 }
+
+#projects .project-box #homey{
+    width: 23vmax;
+    height: 15vmax;
+    border-radius: 6px;
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+}
