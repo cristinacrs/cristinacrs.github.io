@@ -50,7 +50,17 @@ nav .navbar-links ul li a{
         margin-left: 1em;
     }
     
-    
+    #resume-section .logos{
+        display: none;
+    }
+
+    html{
+        font-size: x-small;
+    }
+
+    .main-title i{
+        display: none;
+    }
 }
 
 nav .navbar-links ul li a:hover{
@@ -219,4 +229,23 @@ nav .navbar-links ul li a:hover{
     height: 15vmax;
     border-radius: 6px;
     box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+}
+
+#photography-title{
+    background: #6ebae1 ;
+    padding: 2vmin;
+    margin-top: 8vmin;
+    margin-bottom: 8vmin;
+}
+
+#photography-title h2{
+    font-size: 8vmin;
+    color: white;
+    font-weight: bold;
+    text-align: center;
+}
+
+#photos .photo-box img{
+    border-radius: 6px;
+    width: 15em;
 }
