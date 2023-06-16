@@ -49,16 +49,12 @@ nav .navbar-links ul li a{
         width: 10%;
         margin-left: 1em;
     }
-    
-    #resume-section .logos{
-        display: none;
-    }
 
     html{
         font-size: x-small;
     }
 
-    .main-title i{
+    .chevron i{
         display: none;
     }
 }
@@ -91,7 +87,7 @@ nav .navbar-links ul li a:hover{
     font-weight: lighter;
 }
 
-.main-title i{
+.chevron i{
     font-size: 10vh;
     color: white;
     animation-name: down-arrow;
@@ -159,7 +155,9 @@ nav .navbar-links ul li a:hover{
 }
 
 #resume-section .logos{
-    width: 12vmax;
+    width: 100%;
+    height: auto;
+    max-width: 12vmax;
 }
 
 #resume-section .jobs{
@@ -248,4 +246,12 @@ nav .navbar-links ul li a:hover{
 #photos .photo-box img{
     border-radius: 6px;
     width: 15em;
+}
+
+
+footer{
+    background-color: #5c0053;
+    position: absolute;
+    margin: 0;
+    width: 100%;
 }
