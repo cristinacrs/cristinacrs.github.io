@@ -254,4 +254,13 @@ footer{
     position: absolute;
     margin: 0;
     width: 100%;
+    font-size: 15px;
+}
+
+.icons-contact{
+    color: whitesmoke;
+}
+
+.icons-contact:hover{
+    color: #d793fc;
 }
